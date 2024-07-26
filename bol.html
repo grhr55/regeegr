@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="bol.css">
+</head>
+<body> 
+
+
+    <div class="video-background">
+        <video autoplay muted loop id="background-video">
+            <source src="18924hq (online-video-cutter.com).mp4" type="video/mp4">
+            Ваш браузер не поддерживает видео.
+        </video>
+    </div>
+    <audio autoplay>
+        <source src="background-audio.mp3" type="audio/mpeg">
+        Ваш браузер не поддерживает аудио.
+    </audio>
+    <div class="container">
+        <div class="wapen">
+            <h1>Регистрация</h1>
+            <form class="register-form" action="" method="post">
+                <div class="input-box">
+                    <label for="username"></label>
+                    <div class="input-wrapper">
+                        <input type="text" class="input" id="username" name="username" placeholder="Введите ваше имя" required>
+                        <i class="icon username-icon"></i>
+                    </div>
+                    <div class="error-message" id="username-error"></div>
+                </div>
+                <div class="input-box">
+                    <label for="email"></label>
+                    <div class="input-wrapper">
+                        <input type="email" class="input" id="email" name="email" placeholder="Введите вашу почту" required>
+                        <i class="icon email-icon"></i>
+                    </div>
+                    <div class="error-message" id="email-error"></div>
+                </div>
+                <div class="input-box">
+                    <label for="password"></label>
+                    <div class="input-wrapper">
+                        <input type="password" class="input" id="password" name="password" placeholder="Введите ваш пароль" required>
+                        <i class="icon password-icon"></i>
+                    </div>
+                    <div class="error-message" id="password-error"></div>
+                </div>
+                <div class="input-box">
+                    <label for="confirm-password"></label>
+                    <div class="input-wrapper">
+                        <input type="password" class="input" id="confirm-password" name="confirm-password" placeholder="Подтвердите ваш пароль" required>
+                        <i class="icon confirm-password-icon"></i>
+                    </div>
+                    <div class="error-message" id="confirm-password-error"></div>
+                </div>
+                <div class="remember-container">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Запомнить меня</label>
+                </div>
+                <button type="submit">Регистрация</button>
+            </form>
+            <div class="additional-links">
+                <span>Уже есть аккаунт?</span>
+                <a href="bol-1.html">Войти</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

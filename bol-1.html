@@ -1,0 +1,56 @@
+
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Войти</title>
+    <link rel="stylesheet" href="bol.css">
+</head>
+<body> 
+
+
+    <div class="video-background">
+        <video autoplay muted loop id="background-video">
+            <source src="18924hq (online-video-cutter.com).mp4" type="video/mp4">
+            Ваш браузер не поддерживает видео.
+        </video>
+    </div>
+    <audio autoplay>
+        <source src="background-audio.mp3" type="audio/mpeg">
+        Ваш браузер не поддерживает аудио.
+    </audio>
+    <div class="container">
+        <div class="wapen">
+            <h1>Войти</h1>
+            <form class="register-form" action="" method="post">
+                <div class="input-box">
+                    <label for="username"></label>
+                    <div class="input-wrapper">
+                        <input type="text" class="input" id="username" name="username" placeholder="Логин" required>
+                        <i class="icon username-icon"></i>
+                    </div>
+                    <div class="error-message" id="username-error"></div>
+                </div>
+                
+                <div class="input-box">
+                    <label for="password"></label>
+                    <div class="input-wrapper">
+                        <input type="password" class="input" id="password" name="password" placeholder=" Пароль" required>
+                        <i class="icon password-icon"></i>
+                    </div>
+                    <div class="error-message" id="password-error"></div>
+                </div>
+                
+                <div class="remember-container">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Запомнить меня</label>
+                </div>
+                <button type="submit">Войти</button>
+            </form>
+            <div class="additional-links">
+               
+            </div>
+        </div>
+    </div>
+</body>
+</html>
